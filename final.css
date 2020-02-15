@@ -1,0 +1,125 @@
+ .head{
+ height: 100px;
+ width: 100px;
+ position: absolute;
+ border: 3px solid #eebb99;
+  background-color: #eebb99;
+ border-radius: 50%;
+ left: 100px;
+ top: 50px;
+ }
+
+.body{
+ height: 200px;
+ width: 100px;
+ position: absolute;
+ border: 3px solid black;
+ background-color:black;
+ top: 150px;
+ left: 100px;
+ }
+
+.left.arm {
+ height: 60px;
+ width: 40px;
+ position: absolute;
+ border: 3px solid brown;
+ background-color: brown;
+ top: 190px;
+ left: 60px;
+ transform: rotate(50deg);
+ }
+
+.left.elbow{
+ height: 50px;
+ width: 40px;
+ position: absolute;
+ border: 3px solid brown;
+ background-color: brown;
+ top: 240px;
+ left: 80px;
+ transform: rotate(135deg);
+ }
+
+.right.arm{
+ height: 100px;
+ width: 40px;
+ position: absolute;
+ border: 3px solid brown;
+ background-color: brown;
+ top: 165px;
+ left: 150px;
+ transform: rotate(150deg);
+ }
+
+.right.elbow{
+ height: 100px;
+ width: 40px;
+ position: absolute;
+ border: 3px solid brown;
+ background-color: brown;
+ top: 215px;
+ left: 210px;
+ transform: rotate(60deg);
+ }
+
+.left.hita{
+ height: 150px;
+ width: 50px;
+ position: absolute;
+ border: 3px solid black;
+ background-color: black;
+ top: 350px;
+ left: 90px;
+ transform: rotate(10deg);
+ }
+ .right.tuhod{
+ height: 60px;
+ width: 50px;
+ position: absolute;
+ border: 3px solid black;
+  background-color: black;
+ top: 435px;
+ left: 170px;
+ transform: rotate(-1deg);
+ }
+
+.right.hita{
+ height: 130px;
+ width: 50px;
+ position: absolute;
+ border: 3px solid black;
+ background-color: black;
+ top: 328px;
+ left: 140px;
+ transform: rotate(144deg);
+ }
+
+
+.left.paa{
+ position: absolute;
+ border-bottom: 50px solid brown;
+ border-left: 70px solid brown;
+ border-right: 30px solid transparent;
+ top: 505px;
+ left: 70px;
+ transform: rotate(10deg);
+ }
+
+.right.paa{
+ position: absolute;
+ border-bottom: 50px solid brown;
+ border-left: 70px solid brown;
+ border-right: 30px solid transparent;
+ top: 500px;
+ left: 170px;
+ transform: rotate(-2deg);
+ }
+
+
+
+
+
+
+
+

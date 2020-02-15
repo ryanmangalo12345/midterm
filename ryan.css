@@ -1,0 +1,118 @@
+.head{
+ height: 100px;
+ width: 100px;
+ position: absolute;
+ border: 3px #eebb99;;
+ border-radius: 50%;
+ left: 100px;
+ top: 50px;
+ background-color:#eebb99;
+ }
+
+.body{
+ height: 200px;
+ width: 100px;
+ position: absolute;
+ border: 3px solid black;
+ background-color: black;
+ top: 150px;
+ left: 100px;
+ }
+
+.left.arm {
+ height: 100px;
+ width: 40px;
+ position: absolute;
+ border: 3px solid brown;
+ background-color:brown;
+ top: 130px;
+ left: 30px;
+ transform: rotate(80deg);
+ }
+
+.left.elbow{
+ height: 80px;
+ width: 40px;
+ position: absolute;
+ border: 3px solid brown;
+ background-color:brown;
+ top: 205px;
+ left: 10px;
+ transform: rotate(170deg);
+ }
+
+.right.arm{
+ height: 100px;
+ width: 40px;
+ position: absolute;
+ border: 3px solid brown;
+ background-color:brown;
+ top: 160px;
+ left: 170px;
+ transform: rotate(130deg);
+ }
+
+.right.elbow{
+ height: 100px;
+ width: 40px;
+ position: absolute;
+ border: 3px solid brown;
+ background-color:brown;
+ top: 182px;
+ left: 250px;
+ transform: rotate(40deg);
+ }
+
+.left.hita{
+ height: 150px;
+ width: 50px;
+ position: absolute;
+ border: 3px solid black;
+ background-color:black;
+ top: 350px;
+ left: 90px;
+ transform: rotate(10deg);
+ }
+
+.right.hita{
+ height: 80px;
+ width: 50px;
+ position: absolute;
+ border: 3px solid black;
+ background-color: black;
+ top: 330px;
+ left: 170px;
+ transform: rotate(150deg);
+ }
+
+ .right.tuhod{
+ height: 80px;
+ width: 50px;
+ position: absolute;
+ border: 3px solid black;
+ background-color:black;
+ top: 395px;
+ left: 195px;
+ transform: rotate(230deg);
+ }
+
+
+.left.paa{
+ position: absolute;
+ border-bottom: 50px solid brown;
+ border-left: 70px solid brown;
+ border-right: 30px solid transparent;
+ top: 505px;
+ left: 70px;
+ transform: rotate(10deg);
+ }
+
+.right.paa{
+ position: absolute;
+ border-bottom: 50px solid brown;
+ border-left: 70px solid brown;
+ border-right: 30px solid transparent;
+ top: 460px;
+ left: 150px;
+ transform: rotate(50deg);
+ }

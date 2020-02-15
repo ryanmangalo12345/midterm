@@ -1,0 +1,128 @@
+#move O {
+    background-color:blue;
+}
+
+.head {
+	height:100px;
+    width:100px;
+    position: relative;
+    top:85px;
+    left:60px;
+    background-color:black;
+    border-radius:50%;
+    display:inline-block;
+}
+.body {
+    height:1500px;
+    width:150px;
+    background-color:blue;
+    position:relative;
+    top:80px;
+    left:60px;
+}
+.left.arm {
+    height:80px;
+    width:30px;
+    background-color: red;
+    position:absolute;
+    border: 2px;
+    top:200px;
+    left:659px;
+    transform: rotate(65deg);
+
+
+}
+.left.elbow{
+ height: 100px;
+ width: 40px;
+ position: absolute;
+ border: 3px solid black;
+ top: 220px;
+ left: 80px;
+ transform: rotate(140deg);
+ }
+
+.right.arm {
+    height:50px;
+    width:20px;
+    background-color:red;
+    position:relative;
+    top:10px;
+    left:150px;
+    transform: rotate(-50deg);
+
+}
+.right.elbow{
+ height: 100px;
+ width: 40px;
+ position: absolute;
+ border: 3px solid black;
+ top: 198px;
+ left: 260px;
+ transform: rotate(60deg);
+ }
+
+.left.hita {
+    height:30px;
+    width:120px;
+    background-color:blue;
+    position:relative;
+    top:25px;
+    left:35px;
+    transform: rotate(-90deg);
+}
+.right.hita {
+    height:30px;
+    width:120px;
+    background-color:blue;
+    position:relative;
+    top:    -5px;
+    left:80px;
+    transform: rotate(-90deg);
+}
+}
+.left binti {
+    height:20px;
+    width:120px;
+    background-color:blue;
+    position:relative;
+    top:-120px;
+    left:-5px;
+    transform: rotate(-65deg);
+    -webkit-transform: rotate(-65deg);
+}
+.right binti {
+    height:20px;
+    width:120px;
+    background-color:blue;
+    position:relative;
+    top:-130px;
+    left:195px;
+    transform: rotate(254deg);
+    -webkit-transform: rotate(254deg);
+}
+.left paa {
+    width:37px;
+    background-color:black;
+    position:absolute;
+    top:50%;
+    left:10%;
+    border-bottom: 26 px;
+    border right: 31px ;
+    border-top:;
+
+
+
+}
+.right paa {
+     height:20px;
+    width:120px;
+    background-color:blue;
+    position:relative;
+    top:-130px;
+    left:195px;
+    transform: rotate(254deg);
+    -webkit-transform: rotate(254deg);
+}
+
+
